@@ -743,7 +743,7 @@ https://www.youtube.com/watch?v=v8Isqy4yR3Q
 ## Hikvision
 
 [Hikvision 流媒体管理服务器敏感信息泄漏](https://github.com/Henry4E36/HikvisionInformation)
-[海康威视 CVE-2021-36260 RCE 漏洞](https://github.com/Cuerz/CVE-2021-36260)
+[海康威视 CVE-2021-36260 RCE 漏洞](https://github.com/Cuerz/CVE-2021-36260)--https://mp.weixin.qq.com/s/tUhpyH7aMr1NhM9JhImqlg
 
 [海康威视综合安防平台后渗透利用工具](https://github.com/wafinfo/Hikvision)
 
