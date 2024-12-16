@@ -970,6 +970,7 @@ https://raw.githubusercontent.com/dwisiswant0/nuclei-templates/add/GHSL-2020-325
 [aleenzz/CVE-2020-10199](https://github.com/aleenzz/CVE-2020-10199)
 
 [CVE-2020-29436：Nexus3 XML外部实体注入复现](https://mp.weixin.qq.com/s/u6LWHvNEieQsV-ny6xwMmQ)
+[Nexus Repository Manager任意文件读取](https://mp.weixin.qq.com/s/NIrDJxTLJfralSpMWyAbqg)
 
 ## NPS
 
