@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4dd2a381-69ab-4308-847c-3aaa9e78c307)# FrameVul
+# FrameVul
 
 ## 综合
 
