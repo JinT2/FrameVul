@@ -1,4 +1,4 @@
-# FrameVul
+![image](https://github.com/user-attachments/assets/4dd2a381-69ab-4308-847c-3aaa9e78c307)# FrameVul
 
 ## 综合
 
@@ -1245,7 +1245,8 @@ Content-Type: application/octet-stream
 <?php phpinfo();?>
 ------WebKitFormBoundaryVONn1aO9fhHlsRx8--
 
-注意点：上传路径拼接类似ueditor版本号等自定义路径，解析路径也为自定义路径/xxxxx/php/upload/fuck.php
+1.上传路径拼接类似ueditor版本号等自定义路径，解析路径也为自定义路径/xxxxx/php/upload/fuck.php
+2.必须要register_globals为打开状态，php版本在5.3之后自动关闭
 
 ## Vmware
 
