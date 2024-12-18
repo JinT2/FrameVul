@@ -1245,7 +1245,7 @@ Content-Type: application/octet-stream
 <?php phpinfo();?>
 ------WebKitFormBoundaryVONn1aO9fhHlsRx8--
 
-注意点：上传路径拼接类似ueditor版本号等自定义路径，解析路径为/ueditor/php/upload/fuck.php
+注意点：上传路径拼接类似ueditor版本号等自定义路径，解析路径也为自定义路径/xxxxx/php/upload/fuck.php
 
 ## Vmware
 
